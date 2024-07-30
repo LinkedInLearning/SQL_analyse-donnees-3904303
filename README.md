@@ -15,12 +15,12 @@ Ce dossier Repository contient des dossiers pour chacun des chapitres de la form
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
    - [PostgreSQL](https://www.postgresql.org/download/) 
    - [DBeaver](https://dbeaver.io/) ou tout autre outil de requête qui se connecte à PostgreSQL
-2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
+2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree
    - `git clone https://github.com/LinkedInLearning/SQL_analyse-donnees-3904303.git`
 4. Pour restaurer la sauvegarde de la base de données PachadataFormation dans PostgreSQL :
    - Créez la base de données au préalable à partir du `template0`, par exemple avec la commande suivante : `createdb -T template0 pachadataformation`
    - Utilisez `psql` pour restaurer la base : `psql pachadataformation < pachadataformation.pgdump`
-   - Vous pouvez aussi restaurer la base dans DBeaver, avec la fonctionnalité d'importation.
+   - Vous pouvez aussi restaurer la base dans DBeaver, avec la fonctionnalité d'importation
 
 ### Formateur
 
