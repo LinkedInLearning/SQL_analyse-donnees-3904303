@@ -8,22 +8,19 @@ DESCRIPTION DE LA FORMATION
 
 ## Instructions
 
-Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
-
-## Branches
-
-Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : `CHAPITRE#_VIDEO#`. Par exemple, la branche nommée`02_03` correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
-La branche `02_03_d` correspond au code du début de la vidéo.  
-La branche `02_03_f` correspond au code à la fin de la vidéo.  
-La branche master correspond au code à la fin de la formation. 
+Ce dossier Repository contient des dossiers pour chacun des chapitres de la formation. Dans ces dossiers, vous trouverez simplement les fichiers `.sql` numérotés selon la numéro de la vidéo dans le chapitre. 
 
 ## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [Liste des logiciels/dépendances utiles à la formation] 
+   - [PostgreSQL](https://www.postgresql.org/download/) 
+   - [DBeaver](https://dbeaver.io/) ou tout autre outil de requête qui se connecte à PostgreSQL
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. [Instructions spécifiques au cours] 
-
+   - `git clone https://github.com/LinkedInLearning/SQL_analyse-donnees-3904303.git`
+4. Pour restaurer la sauvegarde de la base de données PachadataFormation dans PostgreSQL :
+   - Créez la base de données au préalable à partir du `template0`, par exemple avec la commande suivante : `createdb -T template0 pachadataformation`
+   - Utilisez `psql` pour restaurer la base : `psql pachadataformation < pachadataformation.pgdump`
+   - Vous pouvez aussi restaurer la base dans DBeaver, avec la fonctionnalité d'importation.
 
 ### Formateur
 
