@@ -4,7 +4,7 @@ Ce dossier Repository est lié au cours `Utiliser SQL pour l'analyse de données
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
-DESCRIPTION DE LA FORMATION
+Avec Rudi Bruchez, apprenez à utiliser SQL pour l'analyse de données. Dans cette formation, vous assimilerez la syntaxe SQL, vérifierez les résultats de vos requêtes et gérerez les données de mauvaise qualité. Vous approfondirez le sujet en manipulant et en recherchant des chaînes, en traitant des dates et en travaillant avec des tables temporaires. Enfin, vous explorerez les fonctions de fenêtrage, vous appliquerez des analyses statistiques et vous aborderez la distribution des données et les écarts.		
 
 ## Instructions
 
