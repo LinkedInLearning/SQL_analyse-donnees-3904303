@@ -30,7 +30,7 @@ Ce dossier Repository contient des dossiers pour chacun des chapitres de la form
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4D0DAQEuSlcQvMFxyw/learning-public-crop_675_1200/learning-public-crop_675_1200/0/1725339705650?e=2147483647&v=beta&t=MZE22iD7I2IywrGfCfyUkX_5vZ1wpvArM5v9G7LoCFM
 [lil-URL-trainer]: https://www.linkedin.com/learning/instructors/rudi-bruchez
 
 [1]: # (End of FR-Instruction ###############################################################################################)
